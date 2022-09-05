@@ -10,6 +10,9 @@
 <body>
     <main>
         <section>
+            <div id="imgLogin">
+                <!-- <img src="image/pattern-building-3-640px.jpg" alt="imagem tela de login"> -->
+            </div>
             <div id="login">
                 <h1>Login</h1>
                 <p>
@@ -25,16 +28,10 @@
                         <label for="senha"></label>
                         <input type="password" name="senha" id="senha" required>
                     </div>
-                    <div id="entrar">
-                        <input type="submit" value="Entrar">
+                    <div id="enviar">
+                        <input type="submit" value="Entrar" id="entrar" onclick="entrar()">
+                        <input type="submit" value="Esqueci a senha 🔑" id="esqueciSenha" onclick="esqueciSenha()">
                     </div>
-                    <div id="esqueciSenha">
-                        <input type="submit" value="Esqueci a senha 🔑">
-                    </div>
-                </form>
-            </div>
-            <div id="imgLogin">
-                <!-- <img src="image/pattern-building-3-640px.jpg" alt="imagem tela de login"> -->
             </div>
         </section>
     </main>
