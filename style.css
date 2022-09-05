@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Mobile First */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +31,7 @@ main section {
 }
 
 main section div#imgLogin {
-    background: center url(/image/pattern-building-3-640px.jpg);
+    background: center url(../image/pattern-building-3-640px.jpg);
     background-size: cover;
     height: 200px;
 }
