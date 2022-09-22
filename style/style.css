@@ -9,7 +9,7 @@
 }
 
 body {
-    background: rgba(189, 131, 104, 0.795);
+    background: rgba(187, 113, 79, 0.884);
 }
 
 main {
@@ -20,14 +20,16 @@ main {
 
 main section {
     position: absolute;
-    width: 90vw;
+    width: 80vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     overflow: hidden;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
+    transition: .3s;
 }
 
 main section div#imgLogin {
@@ -37,22 +39,23 @@ main section div#imgLogin {
 }
 
 main section div#login {
+    height: 350px;
     background-color: white;
     border-radius: 0 0 10px 10px;
 }
 
 main section div#login h1 {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 main section div#login p {
-    padding: 15px;
+    padding: 25px;
     text-indent: 1em;
     text-align: justify;
 }
 
 main section div input {
-    margin: 3px 0px 3px 0px;
+    margin: 0px 0px 3px 0px;
     padding: 5px 10px;
     border-radius: 5px;
 }
