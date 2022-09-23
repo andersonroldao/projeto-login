@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style-mq.css">
 </head>
@@ -22,12 +23,15 @@
                 </p>
                 <form action="" autocomplete="on">
                     <div id="email">
+                        <span class="material-icons">person</span>
                         <label for="email"></label>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="email" autocomplete="email" required maxlength="50">
                     </div>
                     <div id="senha">
+                        <span class="material-icons">key</span>
                         <label for="senha"></label>
-                        <input type="password" name="senha" id="senha" required>
+                        <input type="password" name="senha" id="senha" autocomplete="current-password" required
+                            minlength="8" maxlength="15">
                     </div>
                     <div id="enviar">
                         <input type="submit" value="Entrar" id="entrar" onclick="entrar()">
