@@ -64,7 +64,11 @@ main section div input {
     border-radius: 5px;
 }
 
-main section div#enviar {
-    margin-left: 24px;
-    padding: 15px;
+main section form input[type=submit]:hover {
+    background-color: rgb(230, 228, 228);
+    cursor: pointer;
+}
+
+main section div input#entrar {
+    margin: 20px 0px 0px 20px;
 }
