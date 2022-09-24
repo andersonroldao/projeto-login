@@ -77,10 +77,6 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
         padding: 5px 20px;
         border-radius: 5px;
     }
-
-    main section div#enviar {
-        padding: 20px;
-    }
 }
 
 /* Telas 2k+ */
@@ -123,9 +119,5 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
         margin: 0px 0px 8px 0px;
         padding: 5px 20px;
         border-radius: 8px;
-    }
-
-    main section div#enviar {
-        padding: 30px;
     }
 }
