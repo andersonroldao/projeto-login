@@ -44,10 +44,6 @@ main section div#login {
     border-radius: 0 0 10px 10px;
 }
 
-main section div#login .material-icons {
-    font-size: 18px;
-}
-
 main section div#login h1 {
     padding-top: 25px;
 }
@@ -58,6 +54,10 @@ main section div#login p {
     text-align: justify;
 }
 
+main section div#login .material-icons {
+    font-size: 18px;
+}
+
 main section div input {
     margin: 0px 0px 3px 0px;
     padding: 5px 10px;
@@ -65,10 +65,15 @@ main section div input {
 }
 
 main section form input[type=submit]:hover {
-    background-color: rgb(230, 228, 228);
+    background-color: rgb(196, 194, 194);
     cursor: pointer;
 }
 
 main section div input#entrar {
     margin: 20px 0px 0px 20px;
+    font-weight: bolder;
+}
+
+main section div input#esqueciSenha {
+    font-weight: bolder;
 }
