@@ -22,6 +22,10 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
         background-image: linear-gradient(to bottom, rgba(189, 131, 104, 0.795), rgba(236, 132, 63, 0.308));
     }
 
+    main section {
+        height: 350px;
+    }
+
     main section div#imgLogin {
         float: left;
         width: 35%;
@@ -31,11 +35,16 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
     main section div#login {
         float: right;
         width: 65%;
+        height: 350px;
         border-radius: 0px 10px 10px 0px;
     }
 
     main section div#login h1 {
-        padding-top: 40px;
+        padding-top: 15px;
+    }
+
+    main section div#login p {
+        padding: 15px 15px 15px 15px;
     }
 }
 
@@ -47,35 +56,28 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
 
     main section {
         width: 960px;
-        height: 50vh;
+        height: 400px;
     }
 
     main section div#imgLogin {
         float: left;
         width: 35%;
-        height: 50vh;
+        height: 400px;
     }
 
     main section div#login {
         float: right;
         width: 65%;
-        height: 50vh;
+        height: 400px;
         border-radius: 0px 10px 10px 0px;
     }
 
     main section div#login h1 {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     main section div#login p {
-        margin: 15px;
-        padding: 20px 20px 30px 20px;
-    }
-
-    main section div input {
-        margin: 0px 0px 5px 0px;
-        padding: 5px 20px;
-        border-radius: 5px;
+        padding: 30px;
     }
 }
 
@@ -86,38 +88,58 @@ Extra large devices (large laptops and desktops, min-width: 1200px) */
     }
 
     main section {
-        width: 1300px;
-        height: 55vh;
+        width: 1800px;
+        height: 650px;
     }
 
     main section div#imgLogin {
         float: left;
         width: 35%;
-        height: 55vh;
+        height: 650px;
     }
 
     main section div#login {
         float: right;
         width: 65%;
-        height: 55vh;
+        height: 650px;
         border-radius: 0px 10px 10px 0px;
     }
 
     main section div#login h1 {
-        font-size: 2em;
-        padding-top: 70px;
+        font-size: 3em;
+        padding-top: 40px;
     }
 
     main section div#login p {
-        font-size: 1.4em;
-        margin: 15px;
-        padding: 30px 30px 40px 30px;
+        font-size: 2em;
+        padding: 40px;
     }
 
-    main section div input {
-        font-size: 1.3em;
-        margin: 0px 0px 8px 0px;
-        padding: 5px 20px;
-        border-radius: 8px;
+    main section div#login .material-icons {
+        font-size: 36px;
+        margin-left: -42px;
+    }
+
+    main section div input#email {
+        font-size: 1.5em;
+        margin: 10px 0px;
+        padding: 10px 20px;
+    }
+
+    main section div input#senha {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+        padding: 10px 20px;
+    }
+
+    main section div input#entrar {
+        padding: 10px 120px;
+        font-size: 2em;
+        border-radius: 10px;
+    }
+
+    main section div input#esqueciSenha {
+        margin-top: 40px;
+        font-size: 1.4em;
     }
 }
