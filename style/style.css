@@ -29,7 +29,7 @@ main section {
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     border-radius: 10px;
-    transition: .3s;
+    transition: .2s;
 }
 
 main section div#imgLogin {
@@ -45,21 +45,28 @@ main section div#login {
 }
 
 main section div#login h1 {
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 main section div#login p {
-    padding: 25px;
+    padding: 20px;
     text-indent: 1em;
     text-align: justify;
 }
 
 main section div#login .material-icons {
     font-size: 18px;
+    margin-left: -21px;
 }
 
-main section div input {
-    margin: 0px 0px 3px 0px;
+main section div input#email {
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main section div input#senha {
+    margin-bottom: 20px;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -70,10 +77,18 @@ main section form input[type=submit]:hover {
 }
 
 main section div input#entrar {
-    margin: 20px 0px 0px 20px;
+    display: block;
+    margin: auto;
+    padding: 5px 61px;
+    background-color: rgb(201, 113, 55);
+    color: white;
+    font-size: 1em;
     font-weight: bolder;
+    border-radius: 5px;
 }
 
 main section div input#esqueciSenha {
-    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 0.7em;
+    font-style: italic;
 }
